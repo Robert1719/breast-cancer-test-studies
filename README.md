@@ -28,13 +28,13 @@ In my dataset we have the outcome variable or dependent variable having only two
 I then proceeded to train the models one by one and showed the classification report of perticular models wise.
 To check the accuracy imported confusion_matrix method of metrics class. The confusion matrix is a way of tabulating the number of mis-classifications, i.e., the number of predicted classes which ended up in a wrong classification bin based on the true classes. I used Classification Accuracy method to find the accuracy of our models. It is the ratio of number of correct predictions to the total number of input samples. From the studies, I obtained the following accuracy scores of my models:
 
-1. RandomForestClassifier 92.55%
+1. RandomForestClassifier-92.55%
 
-2. SVC 91.49%
+2. SVC-91.49%
 
-3. LogisticRegression 90.96%
+3. LogisticRegression-90.96%
 
-4. DecisionTreeClassifier 90.96%
+4. DecisionTreeClassifier-90.96%
 
 The RandomForest model gave me the highest percentage of accuracy so it is the model I am going to implement for the prediction of cancer in patients.
 
