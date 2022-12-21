@@ -9,7 +9,7 @@ I was able to identify that out of the 569 persons, 357 are labeled as B (benign
 I used pandas’ visualization which is built on top of matplotlib, to find the data distribution of the features.
 I used the scatter feature to try determine the relationship between texture and smoothness of the the cancer cells but the data was inconclusive to arrive to a concrete decision.
 Further visualisation of the data showed me that the malignant cancer cells showed a higher radius mean, perimeter mean and area mean than benign cancer cells.
-Visualisation of the correlation graphs showed that the perimeter mean and the raduis mean were the most correlated features of the cells and the least correlated were the fractal dimension mean and radius mean.
+Visualisation of the correlation graphs showed that the perimeter mean and the radius mean were the most correlated features of the cells and the least correlated were the fractal dimension mean and radius mean.
 
 With the information I'll be able to now proceed to build different models that will help me predict malignant or benign cancer and choose the most accurate.
 
@@ -26,7 +26,7 @@ In my dataset we have the outcome variable or dependent variable having only two
 4. Random Forest Classification
 
 I then proceeded to train the models one by one and showed the classification report of perticular models wise.
-To check the accuracy imported confusion_matrix method of metrics class. The confusion matrix is a way of tabulating the number of mis-classifications, i.e., the number of predicted classes which ended up in a wrong classification bin based on the true classes. I used Classification Accuracy method to find the accuracy of our models. It is the ratio of number of correct predictions to the total number of input samples. From the studies, I obtained the following accuracy scores of my models:
+To check the accuracy I imported confusion_matrix method of metrics class. The confusion matrix is a way of tabulating the number of mis-classifications, i.e., the number of predicted classes which ended up in a wrong classification bin based on the true classes. I used Classification Accuracy method to find the accuracy of our models. It is the ratio of number of correct predictions to the total number of input samples. From the studies, I obtained the following accuracy scores of my models:
 
 1. RandomForestClassifier-92.55%
 
